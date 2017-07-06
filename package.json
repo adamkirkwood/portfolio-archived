@@ -4,7 +4,9 @@
   "description": "Product Design portfolio of Adam Kirkwood",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
   },
   "repository": {
     "type": "git",
@@ -21,15 +23,31 @@
     "url": "https://github.com/adamkirkwood/portfolio/issues"
   },
   "homepage": "https://github.com/adamkirkwood/portfolio#readme",
-  "dependencies": {
-    "next": "^3.0.1-beta.8",
-    "next-routes": "^1.0.39",
+  "devDependencies": {
+    "babel-plugin-inline-react-svg": "^0.4.0",
+    "babel-plugin-module-resolver": "^2.7.1",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-plugin-wrap-in-js": "^1.1.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
     "node-sass": "^4.5.3",
     "open-color": "^1.5.1",
     "postcss-easy-import": "^2.1.0",
     "postcss-loader": "^2.0.6",
-    "react": "^15.6.1",
-    "react-dom": "^15.6.1",
     "sass-loader": "^6.0.6"
+  },
+  "dependencies": {
+    "autoprefixer": "^7.1.1",
+    "fs": "^0.0.1-security",
+    "glob": "^7.1.2",
+    "iotacss": "^1.1.1",
+    "iotaplate": "^1.0.3",
+    "next": "^3.0.1-beta.8",
+    "next-routes": "^1.0.39",
+    "path": "^0.12.7",
+    "raw-loader": "^0.5.1",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
   }
 }
