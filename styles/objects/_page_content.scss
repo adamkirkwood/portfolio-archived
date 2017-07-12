@@ -1,0 +1,13 @@
+.o-page-content {
+  & > * + * {
+    margin-top: 0.5rem;
+  }
+
+  & > * + h3 {
+    margin-top: 2rem;
+  }
+
+  & > * + h4 {
+    margin-top: 2.5rem;
+  }
+}

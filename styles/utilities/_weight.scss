@@ -4,7 +4,10 @@
  * Type: Map
  */
 
-$iota-utils-weight-sizes: ();
+$iota-utils-weight-sizes: (
+  normal: 'normal',
+  medium: '600'
+);
 
 
 /**

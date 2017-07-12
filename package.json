@@ -48,6 +48,7 @@
     "path": "^0.12.7",
     "raw-loader": "^0.5.1",
     "react": "^15.6.1",
-    "react-dom": "^15.6.1"
+    "react-dom": "^15.6.1",
+    "react-typekit": "^1.1.0"
   }
 }

@@ -7,11 +7,11 @@
  * Type: Unitless Number / List
  */
 
-$iota-global-columns: 2, 3, 6;
+$iota-global-columns: 2, 3, 4;
 
 
 /**
- * Global namespace for Objects, Components and 
+ * Global namespace for Objects, Components and
  * Utilities
  *
  * Type: String
@@ -31,7 +31,7 @@ $iota-global-components-namespace : 'c-';
  * Type: Number / List / Map
  */
 
-$iota-global-gutter-default: 10px;
+$iota-global-gutter-default: 20px;
 
 
 /**
@@ -43,7 +43,7 @@ $iota-global-gutter-default: 10px;
  * Type: Boolean
  */
 
-$iota-global-flex: false;
+$iota-global-flex: true;
 
 
 /**

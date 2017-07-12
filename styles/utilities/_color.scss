@@ -4,7 +4,17 @@
  * Type: Map
  */
 
-$iota-utils-color-names: ();
+$iota-utils-color-names: (
+  body-1: $oc-gray-7,
+  body-2: $oc-gray-6,
+  display: $oc-gray-8,
+  title: $oc-gray-8,
+  headline: $oc-gray-8,
+  menu: $oc-gray-7,
+  button: $oc-gray-7,
+  caption: $oc-gray-7,
+  quote: $oc-gray-6
+);
 
 
 /**

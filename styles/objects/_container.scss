@@ -50,7 +50,10 @@ $iota-objs-container-size-default: 1000px;
  * Type: Map
  */
 
-$iota-objs-container-size-extra: ();
+$iota-objs-container-size-extra: (
+  narrow: 720px,
+  wide: 1200px
+);
 
 
 @import 'node_modules/iotacss/objects/container';

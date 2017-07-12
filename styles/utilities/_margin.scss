@@ -14,7 +14,13 @@ $iota-utils-margin-default: $iota-global-gutter-default;
  * Type: Map
  */
 
-$iota-utils-margin-extra: ();
+$iota-utils-margin-extra: (
+  -xsmall: 8px,
+  -small: 16px,
+  -medium: 32px,
+  -large: 48px,
+  -mega: 144px
+);
 
 
 /**
