@@ -34,7 +34,7 @@ export default class extends React.Component {
             <header className={'o-grid'}>
               <div className={'o-grid__col'}>
                 <h1 className={'o-type-promo u-mb-medium'}>Sketchpacks</h1>
-                <p className={'o-type-lead u-color-headline u-2/3'}>
+                <p className={'o-type-lead u-color-headline u-1/2'}>
                   A macOS app that empowers Sketch users to manage and sync
                   their plugins across machines and teams.
                 </p>
