@@ -15,7 +15,7 @@ $iota-objs-list-block: false;
  * Type: Boolean
  */
 
-$iota-objs-list-inline: false;
+$iota-objs-list-inline: true;
 
 
 /**
@@ -48,7 +48,9 @@ $iota-objs-list-gutter-default: $iota-global-gutter-default;
  * Type: Map
  */
 
-$iota-objs-list-gutter-extra: ();
+$iota-objs-list-gutter-extra: (
+  wide: 64px
+);
 
 
 /**

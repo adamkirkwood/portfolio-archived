@@ -57,3 +57,7 @@ $iota-objs-container-size-extra: (
 
 
 @import 'node_modules/iotacss/objects/container';
+
+.o-container--centered {
+  text-align: center;
+}

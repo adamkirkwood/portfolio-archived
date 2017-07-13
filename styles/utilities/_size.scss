@@ -4,7 +4,7 @@
  * Type: String
  */
 
-$iota-utils-size-delimiter: \/;  
+$iota-utils-size-delimiter: \/;
 
 
 /**
@@ -22,9 +22,9 @@ $iota-utils-size-columns: $iota-global-columns;
  * Type: Boolean
  */
 
-$iota-utils-size-res: false;
+$iota-utils-size-res: true;
 
-  
+
 /**
  * Breakpoints map. Overrides the breakpoints map only
  * for margin utility.
@@ -37,7 +37,7 @@ $iota-utils-size-breakpoints: $iota-global-breakpoints;
 
 /**
  * Namespace classes
- * 
+ *
  * Type: String
  */
 

@@ -1,3 +1,5 @@
+$iota-utils-size-res: true;
+
 /**
  * Enable / Disable aligment modifiers.
  * .o-grid--right : Align columns on right horizontally
@@ -25,7 +27,7 @@ $iota-objs-grid-rev: false;
  * Default gutter size. Use a number for a single size or
  * a map for a responsive size.
  *
- * Type: Number / Map 
+ * Type: Number / Map
  */
 
 $iota-objs-grid-gutter-default: $iota-global-gutter-default;
@@ -47,7 +49,7 @@ $iota-objs-grid-gutter-extra: ();
 
 /**
  * Enable / Disable flexbox on grid.
- * 
+ *
  * Type: Boolean
  */
 

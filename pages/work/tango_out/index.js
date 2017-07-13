@@ -4,6 +4,9 @@ import Typekit from 'react-typekit'
 
 import { Link } from 'routes'
 
+import MainNavigation from '../../../components/MainNavigation'
+import Footer from '../../../components/Footer'
+
 import stylesheet from 'styles/main.scss'
 
 export default class extends React.Component {
@@ -22,6 +25,8 @@ export default class extends React.Component {
 
           <Typekit kitId="wpl2elk" />
         </Head>
+
+        <MainNavigation />
 
         <section className={'c-page-header u-bgcolor-tango u-angled--bottom'}>
           <div className={'o-container o-container'}>
@@ -87,6 +92,8 @@ export default class extends React.Component {
             </div>
           </div>
         </section>
+
+        <Footer />
 
       </div>
     )

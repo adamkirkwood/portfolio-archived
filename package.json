@@ -42,6 +42,7 @@
     "fs": "^0.0.1-security",
     "glob": "^7.1.2",
     "iotacss": "^1.1.1",
+    "iotacss-components-button": "^1.0.3",
     "iotaplate": "^1.0.3",
     "next": "^3.0.1-beta.8",
     "next-routes": "^1.0.39",
