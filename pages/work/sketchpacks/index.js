@@ -32,17 +32,25 @@ export default class extends React.Component {
 
         <article className={'l-case-study'}>
 
-          <section className={'o-container o-container--wide u-pt-ultra u-pb-mega'}>
-            <header className={'o-grid'}>
-              <div className={'o-grid__col'}>
+          <section className={'o-container o-container--wide u-pt-ultra u-pb-large'}>
+            <header className={'o-grid o-grid--wide'}>
+              <div className={'o-grid__col u-1/2'}>
                 <h1 className={'o-type-promo u-mb-medium'}>Sketchpacks</h1>
-                <p className={'o-type-lead u-color-headline u-1/2 u-mb-medium'}>
+                <p className={'o-type-lead u-color-headline u-mb-medium'}>
                   A macOS app that empowers Sketch users to manage and sync
                   their plugins across machines and teams.
                 </p>
                 <a href={'https://sketchpacks.com/'} className={'c-button c-button--primary'}>
                   Download Sketchpacks
                 </a>
+              </div>
+
+              <div className={'o-grid__col u-1/2'}>
+                <img
+                  src="/static/work/sketchpacks/app@2x.png"
+                  width="740"
+                  className={'u-mb-large'}
+                />
               </div>
             </header>
           </section>
@@ -103,14 +111,20 @@ export default class extends React.Component {
                 </p>
 
                 <p className={'o-type-body-2 u-color-body-1'}>
-                  Including them in the design &amp; development process gave
+                  Including sponsor users in the design &amp; development process gave
                   me the confidence to move forward with iterations.
+                </p>
+
+                <p className={'o-type-body-2 u-color-body-1'}>
+                  Loose proto&ndash;personas were inspired by
+                  the people I&apos;ve met and interviewed throughout the process.
                 </p>
               </div>
 
               <div className={'o-grid__col col-1/1 u-1/3@sm'}>
                 <PersonaCard
                   name={'Alice'}
+                  archetype={'Sketch Developer'}
                   thumbnail_url={'https://randomuser.me/api/portraits/women/68.jpg'}
                 />
               </div>
@@ -118,6 +132,7 @@ export default class extends React.Component {
               <div className={'o-grid__col col-1/1 u-1/3@sm'}>
                 <PersonaCard
                   name={'Bob'}
+                  archetype={'Sketch User'}
                   thumbnail_url={'https://randomuser.me/api/portraits/men/41.jpg'}
                 />
               </div>
@@ -144,9 +159,7 @@ export default class extends React.Component {
             </div>
           </section>
 
-
-
-          <section className={'o-container o-container--wide u-pb-mega'}>
+          <section className={'o-container o-container--wide'}>
             <div className={'o-grid o-grid--wide'}>
               <div className={'o-grid__col u-1/1 u-1/3@sm o-page-content'}>
                 <h2 className={'o-type-title u-color-headline u-mb-small'}>Uncover insights and opportunities</h2>
@@ -163,11 +176,21 @@ export default class extends React.Component {
                 </p>
               </div>
 
-              <div className={'o-grid__col u-1/1 u-2/3@sm u-bgcolor-tango'}>
-                Insert image here
+              <div className={'o-grid__col u-1/1 u-2/3@sm'}>
+                <img src='https://placeimg.com/640/480/tech?t=1500010858937' />
               </div>
             </div>
           </section>
+
+          <blockquote className={'o-container o-container--wide u-pv-ultra'}>
+            <p className={'o-type-big-quote u-weight-light o-type-italic u-color-quote u-mb-small'}>
+              &ldquo;The beauty of a living thing is not the atoms that go into
+              it, but the way those atoms are put together.&rdquo;
+            </p>
+            <strong className={'u-uppercase o-type-small u-color-quote'}>
+              Carl Sagan
+            </strong>
+          </blockquote>
 
           <section className={'o-container o-container--wide u-pb-mega'}>
             <div className={'o-grid o-grid--rev'}>
@@ -185,21 +208,11 @@ export default class extends React.Component {
                 </p>
               </div>
 
-              <div className={'o-grid__col u-2/3@sm u-bgcolor-tango'}>
-                Insert image here
+              <div className={'o-grid__col u-2/3@sm'}>
+                <img src='https://placeimg.com/640/480/tech?t=1500010858937' />
               </div>
             </div>
           </section>
-
-          <blockquote className={'o-container o-container--wide u-pv-mega'}>
-            <p className={'o-type-big-quote u-weight-light o-type-italic u-color-quote u-mb-small'}>
-              &ldquo;The beauty of a living thing is not the atoms that go into
-              it, but the way those atoms are put together.&rdquo;
-            </p>
-            <strong className={'u-uppercase o-type-small u-color-quote'}>
-              Carl Sagan
-            </strong>
-          </blockquote>
 
           <section className={'o-container u-pv-mega o-container--centered'}>
             <div className={'o-grid'}>
@@ -207,7 +220,8 @@ export default class extends React.Component {
                 <img
                   src="/static/work/sketchpacks/app@2x.png"
                   width="720"
-                  className={'u-mb-large'} />
+                  className={'u-mb-large'}
+                />
 
                 <h2 className={'o-type-display-1 u-color-headline'}>Download Sketchpacks for free</h2>
 
