@@ -15,6 +15,9 @@ $iota-utils-padding-default: $iota-global-gutter-default;
  */
 
 $iota-utils-padding-extra: (
+  -xsmall: 8px,
+  -small: 16px,
+  -medium: 32px,
   -mega: 144px,
   -ultra: 200px
 );

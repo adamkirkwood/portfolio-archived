@@ -4,6 +4,8 @@ import Typekit from 'react-typekit'
 
 import MainNavigation from '../../../components/MainNavigation'
 import Footer from '../../../components/Footer'
+import JobStoryCard from '../../../components/JobStoryCard'
+import PersonaCard from '../../../components/PersonaCard'
 
 import { Link } from 'routes'
 
@@ -34,10 +36,13 @@ export default class extends React.Component {
             <header className={'o-grid'}>
               <div className={'o-grid__col'}>
                 <h1 className={'o-type-promo u-mb-medium'}>Sketchpacks</h1>
-                <p className={'o-type-lead u-color-headline u-1/2'}>
+                <p className={'o-type-lead u-color-headline u-1/2 u-mb-medium'}>
                   A macOS app that empowers Sketch users to manage and sync
                   their plugins across machines and teams.
                 </p>
+                <a href={'https://sketchpacks.com/'} className={'c-button c-button--primary'}>
+                  Download Sketchpacks
+                </a>
               </div>
             </header>
           </section>
@@ -87,26 +92,54 @@ export default class extends React.Component {
             </div>
           </section>
 
-          <section className={'o-container u-pv-mega'}>
-            <div className={'o-grid'}>
-              <div className={'o-grid__col col-1/1 u-1/2 c-card'}>
-                <div className={'u-mb-small u-uppercase u-weight-bold'}>Developer</div>
+          <section className={'o-container o-container--wide u-pv-large'}>
+            <div className={'o-grid o-grid--wide'}>
+              <div className={'o-grid__col col-1/1 u-1/3@sm o-page-content'}>
+                <h2 className={'o-type-title u-color-headline u-mb-small'}>Starts by meeting the community</h2>
 
-                <p>
-                  When I have committed my final changes,<br />
-                  I want to publish my work,<br />
-                  So that my users will receive my latest revisions.
+                <p className={'o-type-body-2 u-color-body-1'}>
+                  I had the pleasure of meeting many talented people from the
+                  Sketch Design &amp; Development community.
+                </p>
+
+                <p className={'o-type-body-2 u-color-body-1'}>
+                  Including them in the design &amp; development process gave
+                  me the confidence to move forward with iterations.
                 </p>
               </div>
 
-              <div className={'o-grid__col col-1/1 u-1/2 c-card'}>
-                <strong>Developer</strong>
+              <div className={'o-grid__col col-1/1 u-1/3@sm'}>
+                <PersonaCard
+                  name={'Alice'}
+                  thumbnail_url={'https://randomuser.me/api/portraits/women/68.jpg'}
+                />
+              </div>
 
-                <p>
-                  When my plugin has been published,<br />
-                  I want to view its analytics,<br />
-                  So that I can measure its performance.
-                </p>
+              <div className={'o-grid__col col-1/1 u-1/3@sm'}>
+                <PersonaCard
+                  name={'Bob'}
+                  thumbnail_url={'https://randomuser.me/api/portraits/men/41.jpg'}
+                />
+              </div>
+            </div>
+          </section>
+
+          <section className={'o-container o-container--wide u-pv-mega'}>
+            <div className={'o-grid o-grid--wide'}>
+              <div className={'o-grid__col col-1/1 u-1/2@sm'}>
+                <JobStoryCard
+                  actor={'When I have committed my final changes'}
+                  action={'I want to publish my work'}
+                  outcome={'So that my users will receive my latest revisions'}
+                />
+              </div>
+
+              <div className={'o-grid__col col-1/1 u-1/2@sm'}>
+                <JobStoryCard
+                  actor={'When my plugin has been published'}
+                  action={'I want to view its analytics'}
+                  outcome={'So that I can measure its performance'}
+                />
               </div>
             </div>
           </section>
@@ -115,12 +148,16 @@ export default class extends React.Component {
 
           <section className={'o-container o-container--wide u-pb-mega'}>
             <div className={'o-grid o-grid--wide'}>
-              <div className={'o-grid__col u-1/1 u-1/3@sm'}>
-                <h2 className={'o-type-title u-color-headline'}>Uncover insights and opportunities</h2>
+              <div className={'o-grid__col u-1/1 u-1/3@sm o-page-content'}>
+                <h2 className={'o-type-title u-color-headline u-mb-small'}>Uncover insights and opportunities</h2>
 
                 <p className={'o-type-body-2 u-color-body-1'}>
                   Service blueprints are a great method for documenting and analyzing
-                  the user&apos;s journey within an ecosystem. The map surfaced
+                  the user&apos;s journey within an ecosystem.
+                </p>
+
+                <p className={'o-type-body-2 u-color-body-1'}>
+                  The map surfaced
                   points of friction and areas of opportunity that could be solved
                   with a well&ndash;designed system in place.
                 </p>
@@ -134,12 +171,15 @@ export default class extends React.Component {
 
           <section className={'o-container o-container--wide u-pb-mega'}>
             <div className={'o-grid o-grid--rev'}>
-              <div className={'o-grid__col u-1/3@sm'}>
-                <h2 className={'o-type-title u-color-headline'}>Map the ecosystem and its forces</h2>
+              <div className={'o-grid__col u-1/3@sm o-page-content'}>
+                <h2 className={'o-type-title u-color-headline u-mb-small'}>Map the ecosystem and its forces</h2>
 
                 <p className={'o-type-body-2 u-color-body-1'}>
                   Every system in place has a purpose. Whether or not they are
                   efficient and obvious is a different story.
+                </p>
+
+                <p className={'o-type-body-2 u-color-body-1'}>
                   To understand each system&apos;s purpose, I began to reduce
                   them just their essential elements and their interconnections.
                 </p>
@@ -175,9 +215,9 @@ export default class extends React.Component {
                   Building and launching Sketchpacks has been absolutely rewarding.
                 </p>
 
-                <button href={'https://sketchpacks.com/'} className={'c-button c-button--primary'}>
-                  Download Sketchpacks 0.5.7
-                </button>
+                <a href={'https://sketchpacks.com/'} className={'c-button c-button--primary'}>
+                  Download Sketchpacks
+                </a>
               </div>
             </div>
           </section>
