@@ -20,7 +20,7 @@ $iota-objs-grid-aligned: false;
  * Type: Boolean
  */
 
-$iota-objs-grid-rev: false;
+$iota-objs-grid-rev: true;
 
 
 /**
@@ -44,7 +44,9 @@ $iota-objs-grid-gutter-default: $iota-global-gutter-default;
  * Type: Map
  */
 
-$iota-objs-grid-gutter-extra: ();
+$iota-objs-grid-gutter-extra: (
+  wide: 64px
+);
 
 
 /**
@@ -77,7 +79,6 @@ $iota-objs-grid-column-name       : 'col';
 $iota-objs-grid-align-right-name  : 'right';
 $iota-objs-grid-align-center-name : 'center';
 $iota-objs-grid-align-top-name    : 'top';
-$iota-objs-grid-namespace         : 'grid';
 
 
 @import 'node_modules/iotacss/objects/grid';
