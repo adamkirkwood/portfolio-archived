@@ -28,7 +28,9 @@ $iota-objs-container-gutter-default: $iota-global-gutter-default;
  * Type: Map
  */
 
-$iota-objs-container-gutter-extra: ();
+$iota-objs-container-gutter-extra: (
+  zero: 0px
+);
 
 
 /**

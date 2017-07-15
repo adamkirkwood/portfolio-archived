@@ -65,7 +65,7 @@ $iota-objs-grid-flex: $iota-global-flex;
  * Type: Boolean
  */
 
-$iota-objs-grid-equal-height: false;
+$iota-objs-grid-equal-height: true;
 
 
 /**
@@ -82,3 +82,9 @@ $iota-objs-grid-align-top-name    : 'top';
 
 
 @import 'node_modules/iotacss/objects/grid';
+
+.o-grid--cards {
+  & > .o-grid__col + .o-grid__col {
+    margin-bottom: 64px;
+  }
+}
