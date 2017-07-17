@@ -28,7 +28,7 @@ export default class extends React.Component {
           <Typekit kitId="wpl2elk" />
         </Head>
 
-        <MainNavigation />
+        <MainNavigation inverse />
 
         <article className={'l-case-study'}>
 
@@ -37,7 +37,7 @@ export default class extends React.Component {
               <header className={'o-grid o-grid--wide'}>
                 <div className={'o-grid__col u-1/2'}>
                   <h1 className={'o-type-promo u-mb-medium'}>Sketchpacks</h1>
-                  <p className={'o-type-lead u-color-headline u-mb-medium'}>
+                  <p className={'o-type-lead u-mb-medium'}>
                     A macOS app that empowers Sketch users to manage and sync
                     their plugins across machines and teams.
                   </p>
@@ -65,12 +65,12 @@ export default class extends React.Component {
               <div className={'o-grid__col u-1/1 u-3/4@sm'}>
                 <p className={'o-type-body-2 u-color-body-1'}>
                   Sketch provides a powerful Javascript API, allowing the
-                  creation of plugins that extend the native functionality. As
+                  creation of plugins that extend its native functionality. As
                   the Sketch plugin ecosystem started to scale, so did the
                   experience gaps in development and distribution. My challenge
                   was to provide Sketch Users a service to manage and sync their
                   plugins across machines and teams. This service would be built
-                  on top of a system designed to help Sketch Developers develop
+                  on top of a system designed to help Sketch Developers
                   and distribute their plugins at scale.
                 </p>
               </div>
@@ -94,7 +94,7 @@ export default class extends React.Component {
               <div className={'o-grid__col u-1/1 u-3/4@sm'}>
                 <p className={'o-type-body-2 u-color-body-1'}>
                   Designing products that provide essential services must have
-                  designed systems to support it. Well-designed services resolve
+                  designed systems to support it. Well&ndash;designed services resolve
                   friction by using interconnected systems arranged to meet
                   desired outcomes.
                 </p>
@@ -102,10 +102,10 @@ export default class extends React.Component {
             </div>
           </section>
 
-          <section className={'o-container o-container--wide u-pv-large'}>
+          <section className={'o-container o-container--wide u-pt-large u-pb-mega'}>
             <div className={'o-grid o-grid--wide'}>
               <div className={'o-grid__col col-1/1 u-1/3@sm o-page-content'}>
-                <h2 className={'o-type-title u-color-headline u-mb-small'}>Starts by meeting the community</h2>
+                <h2 className={'o-type-title u-color-headline u-mb-small'}>The journey starts with the people</h2>
 
                 <p className={'o-type-body-2 u-color-body-1'}>
                   I had the pleasure of meeting many talented people from the
@@ -141,76 +141,78 @@ export default class extends React.Component {
             </div>
           </section>
 
-          <section className={'o-container o-container--wide u-pv-mega'}>
-            <div className={'o-grid o-grid--wide o-grid--cards'}>
+          <div className={'u-bgcolor-gray-0'}>
+            <section className={'o-container o-container--wide u-pt-mega u-pb-mega u-mv-large'}>
+              <div className={'o-grid o-grid--wide o-grid--cards'}>
 
-              <div className={'o-grid__col o-grid--equal-height u-1/1 u-mb-large u-text-center@sm'}>
-                <h2 className={'o-type-title u-color-headline u-mb-small'}>Job Stories</h2>
+                <div className={'o-grid__col o-grid--equal-height u-1/1 u-mb-large u-text-center@sm'}>
+                  <h2 className={'o-type-title u-color-headline u-mb-small'}>Job Stories</h2>
 
-                <p className={'o-type-body-2 u-color-body-1 u-push-1/4@sm u-pull-1/4@sm'}>
-                  Choosing which problems to solve for creates focus and intentionality.
-                  I curated which problems I want to tackle while taking note of
-                  their interconnected systems and touchpoints.
-                </p>
+                  <p className={'o-type-body-2 u-color-body-1 u-push-1/4@sm u-pull-1/4@sm'}>
+                    Like well&ndash;written problem statements, job stories are
+                    not prescriptive of their implementation. Instead, they focus on
+                    triggers or situations, motivations, and desired outcomes.
+                  </p>
+                </div>
+
+                <div className={'o-grid__col o-grid--equal-height u-1/1 u-1/2@sm'}>
+                  <JobStoryCard
+                    archetype={'User'}
+                    actor={'When I want to automate reptitive tasks within Sketch'}
+                    action={'I want to search for a qualified plugin'}
+                    outcome={'So that I can be more efficient'}
+                    />
+                </div>
+
+                <div className={'o-grid__col o-grid--equal-height u-1/1 u-1/2@sm'}>
+                  <JobStoryCard
+                    archetype={'User'}
+                    actor={'When I become aware of new versions of plugins'}
+                    action={'I want to update them'}
+                    outcome={'So that I can receive new features and bug fixes'}
+                    />
+                </div>
+
+                <div className={'o-grid__col o-grid--equal-height u-1/1 u-1/2@sm'}>
+                  <JobStoryCard
+                    archetype={'User'}
+                    actor={'When I work across multiple machines regularly'}
+                    action={'I want access to the same plugins'}
+                    outcome={'So that I can preserve my design tool chain'}
+                    />
+                </div>
+
+                <div className={'o-grid__col o-grid--equal-height u-1/1 u-1/2@sm'}>
+                  <JobStoryCard
+                    archetype={'User'}
+                    actor={'When I am need to share my set of plugins'}
+                    action={'I want provide my list of plugins'}
+                    outcome={'So that the recipient can install my set of plugins'}
+                    />
+                </div>
+
+                <div className={'o-grid__col o-grid--equal-height u-1/1 u-1/2@sm'}>
+                  <JobStoryCard
+                    archetype={'Developer'}
+                    actor={'When I have committed my final changes'}
+                    action={'I want to publish my work'}
+                    outcome={'So that my users will receive my latest revisions'}
+                    />
+                </div>
+
+                <div className={'o-grid__col o-grid--equal-height u-1/1 u-1/2@sm'}>
+                  <JobStoryCard
+                    archetype={'Developer'}
+                    actor={'When my plugin has been published'}
+                    action={'I want to view its analytics'}
+                    outcome={'So that I can measure its performance'}
+                    />
+                </div>
               </div>
+            </section>
+          </div>
 
-              <div className={'o-grid__col o-grid--equal-height u-1/1 u-1/2@sm'}>
-                <JobStoryCard
-                  archetype={'User'}
-                  actor={'When I want to automate reptitive tasks within Sketch'}
-                  action={'I want to search for a qualified plugin'}
-                  outcome={'So that I can be more efficient'}
-                />
-              </div>
-
-              <div className={'o-grid__col o-grid--equal-height u-1/1 u-1/2@sm'}>
-                <JobStoryCard
-                  archetype={'User'}
-                  actor={'When I become aware of new versions of plugins'}
-                  action={'I want to update them'}
-                  outcome={'So that I can receive new features and bug fixes'}
-                />
-              </div>
-
-              <div className={'o-grid__col o-grid--equal-height u-1/1 u-1/2@sm'}>
-                <JobStoryCard
-                  archetype={'User'}
-                  actor={'When I work across multiple machines regularly'}
-                  action={'I want access to the same plugins'}
-                  outcome={'So that I can preserve my design tool chain'}
-                />
-              </div>
-
-              <div className={'o-grid__col o-grid--equal-height u-1/1 u-1/2@sm'}>
-                <JobStoryCard
-                  archetype={'User'}
-                  actor={'When I am need to share my set of plugins'}
-                  action={'I want provide my list of plugins'}
-                  outcome={'So that the recipient can install my set of plugins'}
-                />
-              </div>
-
-              <div className={'o-grid__col o-grid--equal-height u-1/1 u-1/2@sm'}>
-                <JobStoryCard
-                  archetype={'Developer'}
-                  actor={'When I have committed my final changes'}
-                  action={'I want to publish my work'}
-                  outcome={'So that my users will receive my latest revisions'}
-                />
-              </div>
-
-              <div className={'o-grid__col o-grid--equal-height u-1/1 u-1/2@sm'}>
-                <JobStoryCard
-                  archetype={'Developer'}
-                  actor={'When my plugin has been published'}
-                  action={'I want to view its analytics'}
-                  outcome={'So that I can measure its performance'}
-                />
-              </div>
-            </div>
-          </section>
-
-          <section className={'o-container o-container--wide'}>
+          <section className={'o-container o-container--wide u-pt-mega'}>
             <div className={'o-grid o-grid--wide'}>
               <div className={'o-grid__col u-1/1 u-1/3@sm o-page-content'}>
                 <h2 className={'o-type-title u-color-headline u-mb-small'}>Uncover insights and opportunities</h2>
@@ -249,13 +251,13 @@ export default class extends React.Component {
                 <h2 className={'o-type-title u-color-headline u-mb-small'}>Map the ecosystem and its forces</h2>
 
                 <p className={'o-type-body-2 u-color-body-1'}>
-                  Every system in place has a purpose. Whether or not they are
-                  efficient and obvious is a different story.
+                  I reduced each system to reveal their essential elements
+                  and their interconnections.
                 </p>
 
                 <p className={'o-type-body-2 u-color-body-1'}>
-                  To understand each system&apos;s purpose, I began to reduce
-                  them just their essential elements and their interconnections.
+                  With these insights, I designed the product architecture
+                  to support the product&apos;s mission and vision.
                 </p>
               </div>
 
