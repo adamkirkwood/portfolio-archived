@@ -49,7 +49,7 @@ export default class extends React.Component {
                 <div className={'o-grid__col u-1/2'}>
                   <img
                     src="/static/work/sketchpacks/app@2x.png"
-                    width="740"
+                    width="370"
                     className={'u-mb-large'}
                   />
                 </div>
@@ -77,7 +77,7 @@ export default class extends React.Component {
             </div>
           </section>
 
-          <blockquote className={'o-container o-container--wide u-pv-mega'}>
+          <blockquote className={'o-container o-container--wide u-pv-large'}>
             <p className={'o-type-big-quote u-weight-light o-type-italic u-color-quote u-mb-small'}>
               &ldquo;I&apos;m super excited about @sketchpacks, that was a much needed tool!&rdquo;
             </p>
@@ -86,7 +86,7 @@ export default class extends React.Component {
             </strong>
           </blockquote>
 
-          <section className={'o-container u-pv-mega'}>
+          <section className={'o-container u-pt-mega u-pb-large u-angled--top'}>
             <div className={'o-grid'}>
               <div className={'o-grid__col u-1/1 u-1/4@sm'}>
                 <h2 className={'o-type-display-1 u-color-headline'}>The Approach</h2>
@@ -267,6 +267,163 @@ export default class extends React.Component {
             </div>
           </section>
 
+          <section className={'o-container u-pt-mega u-pb-large u-angled--top'}>
+            <div className={'o-grid'}>
+              <div className={'o-grid__col u-1/1 u-1/4@sm'}>
+                <h2 className={'o-type-title u-color-headline u-mb-small'}>The Strategy</h2>
+              </div>
+              <div className={'o-grid__col u-1/1 u-3/4@sm'}>
+                <p className={'o-type-body-2 u-color-body-1'}>
+                  The product roadmap was iterative and motivated by the community.
+                  Their vision consisted of four key experiences: discovery,
+                  management, sharing, and syncing.
+                </p>
+              </div>
+            </div>
+          </section>
+
+          <blockquote className={'o-container o-container--wide u-pv-mega'}>
+            <p className={'o-type-big-quote u-weight-light o-type-italic u-color-quote u-mb-small'}>
+              &ldquo;Vision is a destination, a fixed point to which we focus
+              all our effort. Strategy is a route, an adaptable path to get us
+              where we want to go.&rdquo;
+            </p>
+            <strong className={'u-uppercase o-type-small u-color-quote'}>
+              Simon Sinek
+            </strong>
+          </blockquote>
+
+          <section className={'o-container o-container--wide u-pt-mega'}>
+            <div className={'o-grid o-grid--wide'}>
+              <div className={'o-grid__col u-1/1 u-1/3@sm o-page-content'}>
+                <h2 className={'o-type-title u-color-headline u-mb-small'}>Discovery</h2>
+
+                <p className={'o-type-body-2 u-color-body-1'}>
+                  The Sketchpacks API provides full&ndash;text search, surfacing
+                  plugins indexed by name, description, and the contents of
+                  their README.
+                </p>
+              </div>
+
+              <div className={'o-grid__col u-1/1 u-2/3@sm'}>
+                <img src='https://placeimg.com/640/480/tech?t=1500010858937' />
+              </div>
+            </div>
+          </section>
+
+          <section className={'o-container o-container--wide u-pt-mega'}>
+            <div className={'o-grid o-grid--wide o-grid--rev'}>
+              <div className={'o-grid__col u-1/1 u-1/3@sm o-page-content'}>
+                <h2 className={'o-type-title u-color-headline u-mb-small'}>Management</h2>
+
+                <p className={'o-type-body-2 u-color-body-1'}>
+                  Choose between four different plugin update strategies,
+                  allowing you and your team to focus on design problems rather
+                  than design tooling disparity.
+                </p>
+
+                <p className={'o-type-body-2 u-color-body-1'}>
+                  Set it and forget it.
+                </p>
+              </div>
+
+              <div className={'o-grid__col u-1/1 u-2/3@sm'}>
+                <img src='https://placeimg.com/640/480/tech?t=1500010858937' />
+              </div>
+            </div>
+          </section>
+
+          <section className={'o-container o-container--wide u-pt-mega'}>
+            <div className={'o-grid o-grid--wide'}>
+              <div className={'o-grid__col u-1/1 u-1/3@sm o-page-content'}>
+                <h2 className={'o-type-title u-color-headline u-mb-small'}>Sharing</h2>
+
+                <p className={'o-type-body-2 u-color-body-1'}>
+                  I designed a JSON schema format that would allow for data
+                  flow between systems and machines.
+                </p>
+
+                <p className={'o-type-body-2 u-color-body-1'}>
+                  The sketchpack schema allows you to manage, version control,
+                  and share your plugin library consistently.
+                </p>
+              </div>
+
+              <div className={'o-grid__col u-1/1 u-2/3@sm'}>
+                <img src='/static/work/sketchpacks/json-schema@2x.png' />
+              </div>
+            </div>
+          </section>
+
+          <section className={'o-container o-container--wide u-pt-mega'}>
+            <div className={'o-grid o-grid--wide o-grid--rev'}>
+              <div className={'o-grid__col u-1/1 u-1/3@sm o-page-content'}>
+                <span className={'c-label u-bgcolor-tango o-type-small u-uppercase'}>Up Next</span>
+                <h2 className={'o-type-title u-color-headline u-mb-small'}>Syncing</h2>
+
+                <p className={'o-type-body-2 u-color-body-1'}>
+                  Designers and teams will have the ability to sync their plugins
+                  across machines in near real&ndash;time.
+                </p>
+              </div>
+
+              <div className={'o-grid__col u-1/1 u-2/3@sm'}>
+                <img src='https://placeimg.com/640/480/tech?t=1500010858937' />
+              </div>
+            </div>
+          </section>
+
+          <section className={'o-container u-pt-mega u-pb-large u-angled--top'}>
+            <div className={'o-grid'}>
+              <div className={'o-grid__col u-1/1 u-1/4@sm'}>
+                <h2 className={'o-type-title u-color-headline u-mb-small'}>The Impact</h2>
+              </div>
+
+              <div className={'o-grid__col u-1/1 u-3/4@sm'}>
+                <p className={'o-type-body-2 u-color-body-1'}>
+                  Since the <a href="https://medium.com/building-sketchpacks/introducing-sketchpacks-for-macos-8f4df3313b95">product launch</a> in March &apos;17, our team of two has
+                  achieved a considerable amount of milestones yielding us some
+                  impressive and humbling results.
+                </p>
+              </div>
+            </div>
+          </section>
+
+          <section className={'o-container o-container--wide u-pt-small u-pb-mega u-mv-large'}>
+
+            <div className={'o-grid o-grid--wide o-grid--cards'}>
+              <div className={'o-grid__col o-grid--equal-height u-1/1 u-1/4@sm'}>
+                <span className={'u-weight-medium u-color-headline u-uppercase o-type-small'}>App Downloads</span>
+                <p className={'o-type-big-quote u-mt-small u-weight-medium'}>22k</p>
+              </div>
+
+              <div className={'o-grid__col o-grid--equal-height u-1/1 u-1/4@sm'}>
+                <span className={'u-weight-medium u-color-headline u-uppercase o-type-small'}>Plugin Installs</span>
+                <p className={'o-type-big-quote u-mt-small u-weight-medium'}>37k</p>
+              </div>
+
+              <div className={'o-grid__col o-grid--equal-height u-1/1 u-1/4@sm'}>
+                <span className={'u-weight-medium u-color-headline u-uppercase o-type-small'}>Plugin Updates</span>
+                <p className={'o-type-big-quote u-mt-small u-weight-medium'}>87k</p>
+              </div>
+
+              <div className={'o-grid__col o-grid--equal-height u-1/1 u-1/4@sm'}>
+                <span className={'u-weight-medium u-color-headline u-uppercase o-type-small'}>Monthly Active Users</span>
+                <p className={'o-type-big-quote u-mt-small u-weight-medium'}>4k</p>
+              </div>
+            </div>
+
+          </section>
+
+          <blockquote className={'o-container o-container--wide u-pv-large'}>
+            <p className={'o-type-big-quote u-weight-light o-type-italic u-color-quote u-mb-small'}>
+              &ldquo;Goodbye sketchtoolbox hello @sketchpacks! Manage your Sketch plugins from the menu bar!&rdquo;
+            </p>
+            <strong className={'u-uppercase o-type-small u-color-quote'}>
+              @case23
+            </strong>
+          </blockquote>
+
           <section className={'o-container u-pv-mega o-container--centered'}>
             <div className={'o-grid'}>
               <div className={'o-grid__col'}>
@@ -276,11 +433,9 @@ export default class extends React.Component {
                   className={'u-mb-large'}
                 />
 
-                <h2 className={'o-type-display-1 u-color-headline'}>Download Sketchpacks for free</h2>
-
-                <p className={'o-type-body-2 u-color-body-1 u-mb-large'}>
-                  Building and launching Sketchpacks has been absolutely rewarding.
-                </p>
+                <h2 className={'o-type-display-1 u-color-headline u-mb-large'}>
+                  Download Sketchpacks for free
+                </h2>
 
                 <a href={'https://sketchpacks.com/'} className={'c-button c-button--primary'}>
                   Download Sketchpacks
