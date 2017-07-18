@@ -1,5 +1,3 @@
-
-
 export default ({ inverse }) => {
   const cssClassNames = inverse
     ? 'o-main-navigation o-main-navigation--inverse u-ph-medium u-pv-medium'
