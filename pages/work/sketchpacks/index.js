@@ -62,22 +62,25 @@ export default class extends React.Component {
               <div className={'o-grid__col u-1/1 u-1/4@sm'}>
                 <h2 className={'o-type-display-1 u-color-headline'}>The Challenge</h2>
               </div>
-              <div className={'o-grid__col u-1/1 u-3/4@sm'}>
+              <div className={'o-grid__col u-1/1 u-3/4@sm o-page-content'}>
                 <p className={'o-type-body-2 u-color-body-1'}>
                   Sketch provides a powerful Javascript API, allowing the
                   creation of plugins that extend its native functionality. As
                   the Sketch plugin ecosystem started to scale, so did the
-                  experience gaps in development and distribution. My challenge
-                  was to provide Sketch Users a service to manage and sync their
-                  plugins across machines and teams. This service would be built
-                  on top of a system designed to help Sketch Developers
-                  and distribute their plugins at scale.
+                  experience gaps in the management and distribution of plugins.
+                </p>
+
+                <p className={'o-type-body-2 u-color-body-1'}>
+                  My challenge was to provide Sketch Users a service to manage
+                  and sync their plugins across machines and teams. This
+                  service would be built on top of a system designed to help
+                  Sketch Developers and distribute their plugins at scale.
                 </p>
               </div>
             </div>
           </section>
 
-          <blockquote className={'o-container o-container--wide u-pv-large'}>
+          <blockquote className={'o-container o-container--wide u-pv-large c-quote u-1/2 u-ph-large'}>
             <p className={'o-type-big-quote u-weight-light o-type-italic u-color-quote u-mb-small'}>
               &ldquo;I&apos;m super excited about @sketchpacks, that was a much needed tool!&rdquo;
             </p>
@@ -91,12 +94,19 @@ export default class extends React.Component {
               <div className={'o-grid__col u-1/1 u-1/4@sm'}>
                 <h2 className={'o-type-display-1 u-color-headline'}>The Approach</h2>
               </div>
-              <div className={'o-grid__col u-1/1 u-3/4@sm'}>
+              <div className={'o-grid__col u-1/1 u-3/4@sm o-page-content'}>
                 <p className={'o-type-body-2 u-color-body-1'}>
-                  Designing products that provide essential services must have
-                  designed systems to support it. Well&ndash;designed services resolve
-                  friction by using interconnected systems arranged to meet
-                  desired outcomes.
+                  Well&ndash;understood problems have well&ndash;designed solutions.
+                  That&apos;s why understanding the problem and the people affected
+                  play a huge role in my design process and strategy.
+                </p>
+
+                <p className={'o-type-body-2 u-color-body-1'}>
+                  Identifying the root cause is key to solving problems well.
+                  I approached the problem by analyzing the core elements, systems,
+                  and their connections with one another. Understanding their
+                  purpose provided the insights to begin designing an essential
+                  service.
                 </p>
               </div>
             </div>
@@ -113,8 +123,8 @@ export default class extends React.Component {
                 </p>
 
                 <p className={'o-type-body-2 u-color-body-1'}>
-                  Including sponsor users in the design &amp; development process gave
-                  me the confidence to move forward with iterations.
+                  Including sponsor users in the design &amp; development process
+                  gave me the confidence to move forward with iterations.
                 </p>
 
                 <p className={'o-type-body-2 u-color-body-1'}>
@@ -145,13 +155,18 @@ export default class extends React.Component {
             <section className={'o-container o-container--wide u-pt-mega u-pb-mega u-mv-large'}>
               <div className={'o-grid o-grid--wide o-grid--cards'}>
 
-                <div className={'o-grid__col o-grid--equal-height u-1/1 u-mb-large u-text-center@sm'}>
+                <div className={'o-grid__col o-grid--equal-height u-1/1 u-mb-large u-text-center@sm o-page-content'}>
                   <h2 className={'o-type-title u-color-headline u-mb-small'}>Job Stories</h2>
 
                   <p className={'o-type-body-2 u-color-body-1 u-push-1/4@sm u-pull-1/4@sm'}>
                     Like well&ndash;written problem statements, job stories are
                     not prescriptive of their implementation. Instead, they focus on
                     triggers or situations, motivations, and desired outcomes.
+                  </p>
+
+                  <p className={'o-type-body-2 u-color-body-1 u-push-1/4@sm u-pull-1/4@sm'}>
+                    I used job stories to align the experience over time. This
+                    allowed me to iterate on solutions with every release.
                   </p>
                 </div>
 
@@ -235,17 +250,7 @@ export default class extends React.Component {
             </div>
           </section>
 
-          <blockquote className={'o-container o-container--wide u-pv-ultra'}>
-            <p className={'o-type-big-quote u-weight-light o-type-italic u-color-quote u-mb-small'}>
-              &ldquo;The beauty of a living thing is not the atoms that go into
-              it, but the way those atoms are put together.&rdquo;
-            </p>
-            <strong className={'u-uppercase o-type-small u-color-quote'}>
-              Carl Sagan
-            </strong>
-          </blockquote>
-
-          <section className={'o-container o-container--wide u-pb-mega'}>
+          <section className={'o-container o-container--wide u-pt-mega u-pb-mega'}>
             <div className={'o-grid o-grid--rev'}>
               <div className={'o-grid__col u-1/3@sm o-page-content'}>
                 <h2 className={'o-type-title u-color-headline u-mb-small'}>Map the ecosystem and its forces</h2>
@@ -267,12 +272,35 @@ export default class extends React.Component {
             </div>
           </section>
 
+          <div className={'u-angled--both--reverse u-bgcolor-gray-0'}>
+            <blockquote className={'o-container u-pv-large c-quote u-1/2 u-ph-large'}>
+              <p className={'o-type-big-quote u-weight-light o-type-italic u-color-quote u-mb-small'}>
+                &ldquo;The beauty of a living thing is not the atoms that go into
+                it, but the way those atoms are put together.&rdquo;
+              </p>
+              <strong className={'u-uppercase o-type-small u-color-quote'}>
+                Carl Sagan
+              </strong>
+            </blockquote>
+          </div>
+
+
+
           <section className={'o-container u-pt-mega u-pb-large u-angled--top'}>
             <div className={'o-grid'}>
               <div className={'o-grid__col u-1/1 u-1/4@sm'}>
-                <h2 className={'o-type-title u-color-headline u-mb-small'}>The Strategy</h2>
+                <h2 className={'o-type-display-1 u-color-headline'}>The Strategy</h2>
               </div>
-              <div className={'o-grid__col u-1/1 u-3/4@sm'}>
+
+              <div className={'o-grid__col u-1/1 u-3/4@sm o-page-content'}>
+                <p className={'o-type-body-2 u-color-body-1'}>
+                  I believe design is a continuous conversation over time. Where
+                  with each iteration, you learn more about the problem and provides
+                  the ability to make adjustment. This meant that finding the
+                  problem&ndash;solution&ndash;fit would become more concrete with
+                  every piece of feedback, bug report, and conversation.
+                </p>
+
                 <p className={'o-type-body-2 u-color-body-1'}>
                   The product roadmap was iterative and motivated by the community.
                   Their vision consisted of four key experiences: discovery,
@@ -282,26 +310,21 @@ export default class extends React.Component {
             </div>
           </section>
 
-          <blockquote className={'o-container o-container--wide u-pv-mega'}>
-            <p className={'o-type-big-quote u-weight-light o-type-italic u-color-quote u-mb-small'}>
-              &ldquo;Vision is a destination, a fixed point to which we focus
-              all our effort. Strategy is a route, an adaptable path to get us
-              where we want to go.&rdquo;
-            </p>
-            <strong className={'u-uppercase o-type-small u-color-quote'}>
-              Simon Sinek
-            </strong>
-          </blockquote>
-
           <section className={'o-container o-container--wide u-pt-mega'}>
             <div className={'o-grid o-grid--wide'}>
               <div className={'o-grid__col u-1/1 u-1/3@sm o-page-content'}>
                 <h2 className={'o-type-title u-color-headline u-mb-small'}>Discovery</h2>
 
                 <p className={'o-type-body-2 u-color-body-1'}>
-                  The Sketchpacks API provides full&ndash;text search, surfacing
-                  plugins indexed by name, description, and the contents of
-                  their README.
+                  Searching for plugins relied on the browser&apos;s native Find,
+                  proving only to be useful if you knew exactly what you were
+                  looking for.
+                </p>
+
+                <p className={'o-type-body-2 u-color-body-1'}>
+                  The desktop and web clients leverage the API providing full&ndash;text
+                  search, surfacing plugins indexed by name, description, and
+                  the contents of their README.
                 </p>
               </div>
 
@@ -317,13 +340,14 @@ export default class extends React.Component {
                 <h2 className={'o-type-title u-color-headline u-mb-small'}>Management</h2>
 
                 <p className={'o-type-body-2 u-color-body-1'}>
-                  Choose between four different plugin update strategies,
-                  allowing you and your team to focus on design problems rather
-                  than design tooling disparity.
+                  Prior to Sketch 45, Users had to be proactive with keeping
+                  their plugins up&ndash;to&ndash;date.
                 </p>
 
                 <p className={'o-type-body-2 u-color-body-1'}>
-                  Set it and forget it.
+                  The desktop client provides four different plugin update strategies
+                  per plugin. Sketchpacks periodically checks for plugin updates
+                  and applies them accordingly in the background while you work.
                 </p>
               </div>
 
@@ -339,13 +363,14 @@ export default class extends React.Component {
                 <h2 className={'o-type-title u-color-headline u-mb-small'}>Sharing</h2>
 
                 <p className={'o-type-body-2 u-color-body-1'}>
-                  I designed a JSON schema format that would allow for data
-                  flow between systems and machines.
+                  Sharing plugins is a natural behavior amongst the Sketch community.
+                  I designed a JSON schema format that would allow Sketchpacks users
+                  to share plugins easily.
                 </p>
 
                 <p className={'o-type-body-2 u-color-body-1'}>
-                  The sketchpack schema allows you to manage, version control,
-                  and share your plugin library consistently.
+                  The desktop client supports both importing and exporting
+                  the user&apos;s plugin library.
                 </p>
               </div>
 
@@ -358,7 +383,7 @@ export default class extends React.Component {
           <section className={'o-container o-container--wide u-pt-mega'}>
             <div className={'o-grid o-grid--wide o-grid--rev'}>
               <div className={'o-grid__col u-1/1 u-1/3@sm o-page-content'}>
-                <span className={'c-label u-bgcolor-tango o-type-small u-uppercase'}>Up Next</span>
+                <span className={'c-label u-bgcolor-tango o-type-small u-uppercase'}>Coming Soon</span>
                 <h2 className={'o-type-title u-color-headline u-mb-small'}>Syncing</h2>
 
                 <p className={'o-type-body-2 u-color-body-1'}>
@@ -373,10 +398,10 @@ export default class extends React.Component {
             </div>
           </section>
 
-          <section className={'o-container u-pt-mega u-pb-large u-angled--top'}>
+          <section className={'o-container u-pt-ultra u-pb-large u-angled--top'}>
             <div className={'o-grid'}>
               <div className={'o-grid__col u-1/1 u-1/4@sm'}>
-                <h2 className={'o-type-title u-color-headline u-mb-small'}>The Impact</h2>
+                <h2 className={'o-type-display-1 u-color-headline'}>The Impact</h2>
               </div>
 
               <div className={'o-grid__col u-1/1 u-3/4@sm'}>
@@ -389,33 +414,34 @@ export default class extends React.Component {
             </div>
           </section>
 
-          <section className={'o-container o-container--wide u-pt-small u-pb-mega u-mv-large'}>
+          <div className={'u-bgcolor-gray-9'}>
+            <section className={'o-container o-container--wide u-pt-small u-pb-mega u-mv-large'}>
+              <div className={'o-grid o-grid--wide o-grid--cards'}>
+                <div className={'o-grid__col o-grid--equal-height u-1/1 u-1/4@sm u-align-middle'}>
+                  <span className={'u-weight-medium u-color-headline u-uppercase o-type-small u-color-gray-0 u-block'}>App Downloads</span>
+                  <p className={'o-type-big-quote u-mt-small u-weight-medium u-color-gray-0 u-block'}>22k</p>
+                </div>
 
-            <div className={'o-grid o-grid--wide o-grid--cards'}>
-              <div className={'o-grid__col o-grid--equal-height u-1/1 u-1/4@sm'}>
-                <span className={'u-weight-medium u-color-headline u-uppercase o-type-small'}>App Downloads</span>
-                <p className={'o-type-big-quote u-mt-small u-weight-medium'}>22k</p>
+                <div className={'o-grid__col o-grid--equal-height u-1/1 u-1/4@sm'}>
+                  <span className={'u-weight-medium u-color-headline u-uppercase o-type-small u-color-gray-0'}>Plugin Installs</span>
+                  <p className={'o-type-big-quote u-mt-small u-weight-medium u-color-gray-0'}>37k</p>
+                </div>
+
+                <div className={'o-grid__col o-grid--equal-height u-1/1 u-1/4@sm'}>
+                  <span className={'u-weight-medium u-color-headline u-uppercase o-type-small u-color-gray-0'}>Plugin Updates</span>
+                  <p className={'o-type-big-quote u-mt-small u-weight-medium u-color-gray-0'}>87k</p>
+                </div>
+
+                <div className={'o-grid__col o-grid--equal-height u-1/1 u-1/4@sm'}>
+                  <span className={'u-weight-medium u-color-headline u-uppercase o-type-small u-color-gray-0'}>Monthly Active Users</span>
+                  <p className={'o-type-big-quote u-mt-small u-weight-medium u-color-gray-0'}>4k</p>
+                </div>
               </div>
+            </section>
+          </div>
 
-              <div className={'o-grid__col o-grid--equal-height u-1/1 u-1/4@sm'}>
-                <span className={'u-weight-medium u-color-headline u-uppercase o-type-small'}>Plugin Installs</span>
-                <p className={'o-type-big-quote u-mt-small u-weight-medium'}>37k</p>
-              </div>
 
-              <div className={'o-grid__col o-grid--equal-height u-1/1 u-1/4@sm'}>
-                <span className={'u-weight-medium u-color-headline u-uppercase o-type-small'}>Plugin Updates</span>
-                <p className={'o-type-big-quote u-mt-small u-weight-medium'}>87k</p>
-              </div>
-
-              <div className={'o-grid__col o-grid--equal-height u-1/1 u-1/4@sm'}>
-                <span className={'u-weight-medium u-color-headline u-uppercase o-type-small'}>Monthly Active Users</span>
-                <p className={'o-type-big-quote u-mt-small u-weight-medium'}>4k</p>
-              </div>
-            </div>
-
-          </section>
-
-          <blockquote className={'o-container o-container--wide u-pv-large'}>
+          <blockquote className={'o-container o-container--wide u-pv-large c-quote u-1/2 u-ph-large'}>
             <p className={'o-type-big-quote u-weight-light o-type-italic u-color-quote u-mb-small'}>
               &ldquo;Goodbye sketchtoolbox hello @sketchpacks! Manage your Sketch plugins from the menu bar!&rdquo;
             </p>
