@@ -3,7 +3,7 @@ const fs = require('fs')
 const glob = require('glob')
 
 module.exports = {
-  webpack: (config, { dev }) => {
+  webpack: (config) => {
 
     config.resolve = {
       extensions: ['.js', '.scss', '.json'],
@@ -14,7 +14,7 @@ module.exports = {
       {
         test: /\.js$/,
         loader: 'babel-loader',
-        exclude: /.*node_modules\/((?!sketchpacks-fieldguide).)*$/,
+        exclude: /node_modules/,
         query: {
           presets: [
             'react',
